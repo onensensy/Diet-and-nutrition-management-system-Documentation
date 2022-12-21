@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.12.1)  16 DEC 2022 16:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.12.1)  21 DEC 2022 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -311,30 +311,40 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 13.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 21.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 21.
+
+Overfull \hbox (97.50941pt too wide) in paragraph at lines 21--30
+ [][] 
+ []
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./ConceptPaper.bbl) [
-3] (./ConceptPaper.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4]
+(./ConceptPaper.bbl) [5] (./ConceptPaper.aux)
 Package rerunfilecheck Info: File `ConceptPaper.out' has not changed.
-(rerunfilecheck)             Checksum: 1335E1C726F2E2DBC46B1B7E6BF1F27C;1113.
+(rerunfilecheck)             Checksum: 0D6D56A1F9405494A8BB17EBDB39022D;2038.
  ) 
 Here is how much of TeX's memory you used:
- 8883 strings out of 479940
- 138585 string characters out of 5886929
- 452876 words of memory out of 5000000
- 26997 multiletter control sequences out of 15000+600000
- 474156 words of font info for 44 fonts, out of 8000000 for 9000
+ 8905 strings out of 479940
+ 138904 string characters out of 5886929
+ 456882 words of memory out of 5000000
+ 27008 multiletter control sequences out of 15000+600000
+ 474502 words of font info for 45 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 72i,5n,77p,1071b,432s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,9n,77p,1071b,494s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/sensy/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600
 pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on ConceptPaper.pdf (3 pages, 75327 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on ConceptPaper.pdf (5 pages, 101012 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
