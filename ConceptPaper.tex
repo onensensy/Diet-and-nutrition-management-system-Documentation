@@ -1,7 +1,10 @@
 \documentclass{article}
 \usepackage{hyperref}
 \usepackage[table,xcdraw]{xcolor}
-\usepackage[margin=1in]{geometry}
+\usepackage{booktabs} %Allow tables to be created well
+\usepackage{graphicx}
+\usepackage{float} % To make table appear where you place its code
+\usepackage[margin=1in]{geometry} %border Margins
 \bibliographystyle{unsrt}
 
 \begin{document}
@@ -92,11 +95,11 @@ The system we aim to build will help the elderly remind them when to best consum
 
 
 %%-------------------------------------------------------------------------------
-%% Literature review
+%% 2.0 Literature review
 %%-------------------------------------------------------------------------------
+\section{Literature Review}
 
-\section{Literature review}
-According to Wikipedia (2019), Dietary management simply means providing nutritional options for individuals and groups with diet concerns through the supervision of food services. Information systems have made it easier for accurate and efficient nutritional analysis of feeding habits and patterns.
+According to Wikipedia (2019), dietary management simply means providing nutritional options for individuals and groups with diet concerns through the supervision of food services. Information systems have made it easier for accurate and efficient nutritional analysis of feeding habits and patterns.
 
 This section focuses on the exploration of different solutions developed by researchers to alleviate the problem of poor eating habits among university students. We reviewed similar systems regarding the problems faced by students when they skip meals or even fail to eat at the right time. The solution we aim to provide for this problem is to develop a diet and nutrition management system that will provide students with timely reminders, food suggestions, and nutrition literature.
 
@@ -107,117 +110,141 @@ The review is comprised of works that have been done to find the solution to the
 \subsection{Existing Systems}
 
 \subsubsection{MantraCare}
+
 MantraCare is a Ugandan-based web application that provides consultation services with dieticians on belly fat reduction and weight loss dieting plans, exercises, and foods.
 
-\textit{Strength of the System}:
+\textbf{Strength of the System:}
+
 \begin{itemize}
-    \item Video calls or chat sessions with the best dieticians.
-    \item Affordable diet consultation.
+\item Video calls or chat sessions with the best dieticians.
+\item Affordable diet consultation.
 \end{itemize}
 
-\textit{Weaknesses of the System}:
-\begin{itemize}
-    \item It does not have timely reminders.
-    \item It does not offer food suggestions.
-\end{itemize}
+\textbf{Weaknesses of the System:}
 
+\begin{itemize}
+\item It does not have timely reminders.
+\item It does not offer food suggestions.
+\end{itemize}
 \subsubsection{LifeSum}
-LifeSum is a fitness app that lets you decide what a healthy lifestyle means to you. It has plenty of recommendations and suggestions, but they are always pointing toward the goal you want. It has several features which include:
+LifeSum is a fitness app that lets you decide what a healthy lifestyle means to you. It has plenty of recommendations and suggestions, but they are always pointing toward the goal you want.
 
+It has several features which include:
 \begin{itemize}
-    \item Simple tracking of meals (including barcode scanning), exercises, habits, weight, and body measurements.
-    \item A wide range of diets to choose between, including Keto and High Protein.
-    \item Favorites- save your favorite food, exercises, meals, and recipes.
-    \item Meal plans – 1 to 3 weeks of preplanned, easy-to-cook meals.
-    \item Support for macros and net carbs.
-    \item Detailed nutritional information
-    \item Food, meal, and day ratings.
-    \item Weekly life score- what’s gone well and how you can improve.
-    \item Hundreds of healthy and tasty recipes.
-    \item Integrates with Apple Health, Google Fit, Samsung Health, Apple Watch, RunKeeper, Fitbit, Withings, Samsung wearables, Wear OS and Google Assistant.
+\item Simple tracking of meals (including barcode scanning), exercises, habits, weight, and body measurements.
+\item A wide range of diets to choose between, including Keto and High Protein.
+\item Favorites - save your favorite food, exercises, meals, and recipes.
+\item Meal plans - 1 to 3 weeks of preplanned, easy-to-cook meals.
+\item Support for macros and net carbs.
+\item Detailed nutritional information.
+\item Food, meal, and day ratings.
+\item Weekly life score - what's gone well and how you can improve.
+\item Hundreds of healthy and tasty recipes.
+\item Integrates with Apple Health, Google Fit, Samsung Health, Apple Watch, RunKeeper, Fitbit, Withings, Samsung wearables, Wear OS and Google Assistant.
 \end{itemize}
 
-\textit{Strength of the System}:
+\textbf{Strength of the System:}
 \begin{itemize}
-    \item The ability to integrate with different technologies for example Google fit, and Apple Watch among others.
+\item The ability to integrate with different technologies for example Google Fit, and Apple Watch among others.
 \end{itemize}
 
-\textit{Weaknesses of the Systems}:
+\textbf{Weaknesses of the System:}
 \begin{itemize}
-    \item Limited food suggestions.
-    \item Not fully accessible to all people since it’s for paying.
+\item Limited food suggestions.
+\item Not fully accessible to all people since it's for paying.
 \end{itemize}
 
 \subsubsection{My Plate Calorie Counter}
-This app provides you with the fastest way to lose weight and improve your overall health (Livestrong.com). They use the world’s largest food database to provide you with calorie counts, nutritional information, and serving sizes for lots of foods. You can also access an 8-week meal plan and recipe suggestions.
+This app provides you with the fastest way to lose weight and improve your overall health.
+(\textit{Livestrong.com}) They use the world’s largest food database to provide you with calorie
+counts, nutritional information, and serving sizes for lots of foods. You can also access an 8-
+week meal plan and recipe suggestions.
 
-\textit{Strength of the system}:
+\textbf{Strengths of the system:}
 \begin{itemize}
-    \item They provide you will a lot of statistics about the way you eat.
-    \item You can also customize the way you eat depending on your health goals and this includes the weight you wish to gain.
+\item They provide you with a lot of statistics about the way you eat
+\item You can also customize the way you eat depending on your health goals and this includes the weight you wish to gain.
 \end{itemize}
 
-\textit{Weaknesses of the system}:
+\textbf{Weaknesses of the system:}
 \begin{itemize}
-    \item Most of the suggested foods such as Southwestern Pancakes, chocolate Almond protein cocoa, and many others are alien to our target group.
-    \item If you want to get most of the app such as your highest caloric foods, daily goals, and many others, you have to pay.
+\item Most of the suggested foods such as Southwestern Pancakes, chocolate Almond protein cocoa, and many others are alien to our target group.
+\item If you want to get most of the app such as your highest caloric foods, daily goals, and personal progress you are required to subscribe to the app which 1month costs \$9.99 (approximately 38,000/=)
+\item This option would not work for our target group because the suggested foods are hard to find in Uganda and if they are available, they would be so expensive for the students.
+\item Most of the students wouldn’t receive the health benefits of the app or any other apps on the market because on average very few Ugandans and especially students don’t appreciate the value of paying for a nutrition app and if they wanted, very few would afford to pay for the app hence making this option is available for very few students.
 \end{itemize}
 
-\subsubsection{Fitbit}
-Fitbit is a fitness tracker that helps you track your daily activity, exercise, sleep, weight, and food intake. It has a variety of features which include:
+\subsubsection{The Diet Planner Application}
 
+This is one dietary management system that is equipped with features such as 10,000 ready meals, 270 allergens, patients' medical report capability, meal plans, personalized patient menus, nutritional interviews, kitchen and home measures, and a search engine for dishes and products, etc. To save patients' time, specialists create balanced meals that can be enjoyed without restrictions. It will allow for the preparation of nutrition plans for patients faster than ever. It enables the instant generation of fully personalized menus by a wide range of calorie goals, preferences, and dietary restrictions.
+
+\textbf{Strength of the System:}
 \begin{itemize}
-    \item Tracking of steps, distance, calories burned, active minutes, and hourly activity.
-    \item Tracking of sleep duration and quality, including light, deep, and REM stages.
-    \item Tracking of weight and BMI.
-    \item Tracking of food intake, including calories, protein, carbohydrates, fat, and more.
-    \item Tracking of water intake.
-    \item Setting and tracking of fitness goals.
-    \item Integration with the Fitbit app, which offers personalized insights, challenges, and social features.
-    \item Integration with other apps and devices, such as MyFitnessPal, Strava, and Google Fit.
+\item It can generate a health report for the user.
+\item It has a search engine for dishes and products.
 \end{itemize}
 
-\textit{Strength of the system}:
+\textbf{Weaknesses of the System:}
 \begin{itemize}
-    \item It has a wide range of features for tracking various aspects of health and fitness.
-    \item It has integration with other apps and devices, which allows for seamless tracking and analysis of data.
+\item It does not have timely reminders.
+\item It does not have a BMI (Body Mass Index) calculator.
 \end{itemize}
 
-\textit{Weaknesses of the system}:
+\subsubsection{Nutrition and Diet Management Solutions by Nutritics}
+This system allows multiple profile details designated as clients to be entered. Each profile is then analyzed and then, a tailored meal plan is suggested according to the profile that has been entered.
+
+\textbf{Strengths of the system.}
 \begin{itemize}
-    \item It does not have timely reminders or food suggestions.
-    \item It is not fully accessible to all people, as it requires the purchase of a Fitbit device.
+\item The system provides support to the users.
+\item It has webinars to guide users.
+\item It provides multiple meal alternatives.
+\item It has multiple categories of users they focus on.
+\item It allows the addition of new food and its nutritional values.
 \end{itemize}
 
-\subsection{Proposed System}
-The proposed system aims to address the deficiencies in the existing systems by providing timely reminders, food suggestions, and nutrition literature to university students. It will also have the following features:
-
+\textbf{Weaknesses of the System.}
 \begin{itemize}
-    \item Personalized meal and exercise plans based on individual goals and preferences.
-    \item Integration with popular fitness and nutrition apps and devices, such as MyFitnessPal and Fitbit
-\item Customizable notifications and reminders for meals, exercises, and other health-related activities.
-\item Comprehensive nutrition information and literature for various diets and health goals.
-\item Suggestions for healthy and affordable meal options based on the student's location and preferences.
-\item Integration with local food delivery services to make it easier for students to access healthy meals.
+\item The application is customized for desktops only.
+\item The application is customized for organizations or hospitals to manage multiple clients/patients.
+\item The system is based on expensive meals that may not be affordable.
 \end{itemize}
 
-The proposed system aims to provide a comprehensive and personalized solution for improving the eating habits and overall health of university students. By addressing the deficiencies in existing systems and offering a wide range of features and services, we believe the proposed system has the potential to make a significant impact on the health and well-being of students.
+\subsubsection{Noom}
+It is a weight loss app that uses a psychology-based approach to change your eating habits for
+the better.
 
-\begin{table}[h]
-\caption{Comparison of features in existing systems and the proposed system}
-\begin{tabular}{|c|c|c|c|}
-\hline
-\textbf{System} & \textbf{Timly reminders} & \textbf{Food suggestions} & \textbf{Nutrition literature} \\ \hline
-MantraCare & No & No & N/A \\ \hline
-LifeSum & No & Limited & N/A \\ \hline
-My Plate Calorie Counter & No & Limited & N/A \\ \hline
-Fitbit & No & No & N/A \\ \hline
-\textbf{Proposed system} & \textbf{Yes} & \textbf{Yes} & \textbf{Yes} \\ \hline
-\end{tabular}
+\textbf{Strengths of the system.}
+\begin{itemize}
+\item It has adequate diet nutrition.
+\item It is available both on mobile and desktops.
+\end{itemize}
+
+\textbf{Weaknesses of the system.}
+\begin{itemize}
+\item It has so many questions that take almost an hour to be answered.
+\item It is not accessible in terms of affordability to people like students.
+\end{itemize}
+
+\subsection{Proposed Project}
+As a group, we shall develop a web application that will require university students to register possibly with their name and email addresses that will be used to send notifications to eat food cost-effectively. After this, they will be able to receive timely reminders on the minimum amount and type of food they should consume to successfully fulfill their daily tasks. This will include a mix of foods such as Matooke, Rice, and Sweet potatoes and drinks such as water and a cup of tea. It will also include general knowledge on how they can maintain a healthy and functioning body such as drinking lots of water, exercising regularly, and avoiding harmful consumption of alcohol, and drugs among others.
+This will provide a more customized and cost-effective feeding way for university students to allow them to focus on their studies as they also take care of their health.
+
+\begin{table}[H]
+\centering
+\caption{Comparison Of the Systems}
+\label{tab:comparison-of -systems}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}|l|l|l|l|l|l|l|l|@{}}
+\toprule
+\multicolumn{1}{|c|}{\textbf{System Features}} & \textbf{MantraCare} & \textbf{\begin{tabular}[c]{@{}l@{}}Nutrition and Diet \\ Management Solutions\\  By Nutritics\end{tabular}} & \textbf{Noom} & \textbf{\begin{tabular}[c]{@{}l@{}}Diet \\ Planner\end{tabular}} & \textbf{\begin{tabular}[c]{@{}l@{}}My Plate \\ Calories\end{tabular}} & \textbf{Life Sum} & \textbf{\begin{tabular}[c]{@{}l@{}}Proposed \\ System\end{tabular}} \\ \midrule
+BMI Calculator &  & \textbf{YES} & \textbf{YES} &  & \textbf{YES} & \textbf{YES} & \textbf{YES} \\ \midrule
+Timely Reminder & \textbf{YES} & \textbf{YES} &  &  & \textbf{YES} &  & \textbf{YES} \\ \midrule
+Food Suggestions & \textbf{YES} & \textbf{YES} & \textbf{YES} & \textbf{YES} &  &  & \textbf{YES} \\ \midrule
+Nutritional Literature & \textbf{YES} &  & \textbf{YES} & \textbf{YES} & \textbf{YES} & \textbf{YES} & \textbf{YES} \\ \midrule
+Accessibility(Free) &  &  &  &  &  &  & \textbf{YES} \\ \bottomrule
+\end{tabular}%
+}
 \end{table}
-
-
-
 
 \bibliographystyle{apa7}% Set the bibliography style
 \bibliography{citation} % Include the bibliography file
