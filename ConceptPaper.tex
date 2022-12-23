@@ -5,6 +5,7 @@
 \usepackage{graphicx}
 \usepackage{float} % To make table appear where you place its code
 \usepackage[margin=1in]{geometry} %border Margins
+
 \bibliographystyle{unsrt}
 
 \begin{document}
@@ -21,15 +22,21 @@
 \end{center}
 
 
-\begin{tabular}{c c c c c}
-\linebreak 
-\textbf{NAME} & \textbf{REG NO} & \textbf{BY} & \textbf{EMAIL ADDRESS} & \textbf{CONTACT NO} \\ \hline
-MUHUMUZA VICTOR IAN & 20/U/3524/PS & 2000703524 & victor.muhumuza@students.mak.ac.ug & 0761-656330 \\
-WAKOKO SIMON PETER & 20/U/3512/PS & 2000703512 & simon.wakoko@students.mak.ac.ug \\
-KIKOMEKO PETER GRACE & 20/U/3578/PS & 2000703578 & gracekikomeko@gmail.com \\
-NAMBOOZE RACHEAL & 20/U/7994/EVE & 2000707994 & racheal.nambooze@students.mak.ac.ug \\
-ONEN SAM SENSY & 20/U/3502/PS & 2000703502 & sensyonen@gmail.com \\
-\end{tabular}
+\begin{table}[H]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{NAME} & \textbf{REG NO} & \textbf{STUDENT EMAIL ADDRESS} & \textbf{CONTACT NO} \\ \hline
+MUHUMUZA VICTOR IAN & 20/U/524/PS & {\color[HTML]{000000} {victor.muhumuza@students.mak.ac.ug}} & 0761-656330 \\ \hline
+WAKOKO SIMON PETER & 20/U/3512/PS & {\color[HTML]{000000} {simon.wakoko@students.mak.ac.ug}} & 0706-565245 \\ \hline
+KIKOMEKO PETER GRACE & 20/U/3578/PS & {\color[HTML]{000000} { gracekikomeko@gmail.com}} & 0756-837136 \\ \hline
+NAMBOOZE RACHEAL & 20/U/7994/EVE & {\color[HTML]{000000} {racheal.nambooze@students.mak.ac.ug}} & 0755-868603 \\ \hline
+ONEN SAM SENSY & 20/U/3502/PS & {\color[HTML]{000000} {sensyonen@gmail.com}} & 0782-150448 \\ \hline
+\end{tabular}%
+}
+\end{table}
+
 
 \begin{center}
 \textbf{Department of Information Systems}\\
@@ -46,9 +53,9 @@ ONEN SAM SENSY & 20/U/3502/PS & 2000703502 & sensyonen@gmail.com \\
 \textbf{Submission date:} \date{\today}
 
 \textbf{Option:} Systems Development
-
-
 \end{center}
+
+\newpage
 
 \section{Introduction}
 \label{Introducion}
