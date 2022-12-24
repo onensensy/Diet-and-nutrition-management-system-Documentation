@@ -6,3 +6,5 @@
 *.out
 *.gz
 *.bbl
+*.bcf
+*.xml
