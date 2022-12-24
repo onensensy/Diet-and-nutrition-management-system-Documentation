@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.12.1)  24 DEC 2022 00:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2022.12.1)  24 DEC 2022 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -358,47 +358,46 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+<muk_logo.png, id=76, 285.065pt x 250.9375pt>
+File: muk_logo.png Graphic file (type png)
+<use muk_logo.png>
+Package pdftex.def Info: muk_logo.png  used on input line 19.
+(pdftex.def)             Requested size: 70.26276pt x 61.84972pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 17.
+(Font)              <7> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 60.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
-(./ConceptPaper.bbl) [6
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./muk_logo.png>]
+[2] [3] [4] [5] (./ConceptPaper.bbl) [6
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has
  been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.258 \end{document}
+l.274 \end{document}
                     ] (./ConceptPaper.aux)
 Package rerunfilecheck Info: File `ConceptPaper.out' has not changed.
 (rerunfilecheck)             Checksum: 034C90B44AD6A2A7CB639F83804BFB62;2596.
  ) 
 Here is how much of TeX's memory you used:
- 9405 strings out of 479940
- 147755 string characters out of 5886929
+ 9395 strings out of 479940
+ 147685 string characters out of 5886929
  461244 words of memory out of 5000000
- 27478 multiletter control sequences out of 15000+600000
- 474502 words of font info for 45 fonts, out of 8000000 for 9000
+ 27473 multiletter control sequences out of 15000+600000
+ 472064 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  72i,17n,77p,1071b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/sensy/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600
 pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/tex
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on ConceptPaper.pdf (6 pages, 103631 bytes).
+Output written on ConceptPaper.pdf (6 pages, 219358 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
+ 157 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
  30 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
