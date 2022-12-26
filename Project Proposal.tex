@@ -45,10 +45,14 @@ PRESENTED BY
 
 \begin{table}[H]
 \centering
+%--------------------------------
+\setlength{\tabcolsep}{6pt}%sets the horizontal (column) spacing
+\renewcommand{\arraystretch}{2} %sets the vertical (row) spacing
+%--------------------------------
 \resizebox{\columnwidth}{!}{%
 \begin{tabular}{|l|l|l|l|}
 \hline
-\textbf{NAME} & \textbf{REG NO} & \textbf{STUDENT EMAIL ADDRESS} & \textbf{CONTACT NO} \\ \hline
+\textbf{NAME} & \textbf{REG NO} & \textbf{EMAIL} & \textbf{CONTACT} \\ \hline
 MUHUMUZA VICTOR IAN & 20/U/524/PS & {\color[HTML]{000000} {victor.muhumuza@students.mak.ac.ug}} & 0761-656330 \\ \hline
 WAKOKO SIMON PETER & 20/U/3512/PS & {\color[HTML]{000000} {simon.wakoko@students.mak.ac.ug}} & 0706-565245 \\ \hline
 KIKOMEKO PETER GRACE & 20/U/3578/PS & {\color[HTML]{000000} { gracekikomeko@gmail.com}} & 0756-837136 \\ \hline
@@ -60,13 +64,13 @@ ONEN SAM SENSY & 20/U/3502/PS & {\color[HTML]{000000} {sensyonen@gmail.com}} & 0
 
 
 \begin{center}
-\textbf{A Proposal submitted to the College of Computing and Information Sciences in Partial fulfilment of the Requirements for the Award of a Degree of Bachelors of Information Systems and Technology of Makerere University.}
+\textbf{A Proposal submitted to the College of Computing and Information Sciences in Partial fulfillment of the Requirements for the Award of a Degree of Bachelor of Information Systems and Technology of Makerere University.}
 \end{center}
 
 % \vspace{200pt} 
-\vspace{60pt} 
+\vspace{3pt} 
 \textbf{Supervisor:} Mr. Bitwire Albert George \\
-\textbf{Email:} bitwire.albert@gmail.com \hspace{1cm} \textbf{Contact:} 0773-095119 \\
+ bitwire.albert@gmail.com \\ 0773-095119 \\
 \textbf{Submission date:} \today
 
 % \textbf{Option:} Systems Development
@@ -79,7 +83,7 @@ ONEN SAM SENSY & 20/U/3502/PS & {\color[HTML]{000000} {sensyonen@gmail.com}} & 0
 
 \section{Introduction}
 \label{Introducion}
-Information systems are concerned with data capture, storage, analysis, and retrieval. These are vital to assist decision-making in a short time frame, potentially allowing decisions to be made and practices to be action-ed in real-time.  In the context of diet and nutrition management, nutritional health systems allow for accurate and efficient analysis of food ingredients as well as patient nutrient intake which assists in ensuring that selected food combinations offer the desired nutrients for a particular meal or diet order (\cite{DFM}). 
+Information systems are concerned with data capture, storage, analysis, and retrieval. These are vital to assist decision-making in a short time frame, potentially allowing decisions to be made and practices to be action-ed in real time.  In the context of diet and nutrition management, nutritional health systems allow for accurate and efficient analysis of food ingredients as well as patient nutrient intake which assists in ensuring that selected food combinations offer the desired nutrients for a particular meal or diet order (\cite{DFM}). 
 
 
 \subsection{Background}
@@ -90,7 +94,7 @@ Poor diets were behind the 10.9 million deaths, or 22\% of all deaths among adul
 Uganda has shown limited progress toward achieving the diet-related non-communicable disease (NCD) targets. Furthermore, it has shown no progress towards achieving the target for obesity, with an estimated 10.4\% of adult (aged 18 years and over) women and 2.3\% of adult men living with obesity. Uganda's obesity prevalence is lower than the regional average of 20.7\% for women and 9.2\% for men. At the same time, diabetes is estimated to affect 5.6\% of adult women and 5.6\% of adult men (\cite{globalnutritionreportn.d.}). The motivation for feeding should not only be to stop hunger, but also to increase the general awareness of the nutritional value of the food ingested.
 
 \subsection{Problem statement}
-Improper diet and nutrition are caused by inconsistent intake of healthy foods. Other causes include improper meal timings, under or overeating, not having enough healthy foods, and nutritional ignorance. Experts have revealed that only 10\% of children below the age of five years are eating recommended healthy foods and this includes frequenting eating nutritious meals and eating on time. This has left the majority 90\% eating non-nutritious foods which have resulted in increasing numbers of childhood malnutrition and obesity (\cite{tumwine2022only}). “People are eating a lot of unhealthy foods that don’t contribute to manufacturing of blood in the body which has made them become sicker.”(\cite{tumwine2022only}). We therefore intend to contain this problem by developing a diet and nutrition management system which will guide the targeted populace categories majorly students to maintain a healthy selection of well-balanced meals daily.
+Improper diet and nutrition are caused by inconsistent intake of healthy foods. Other causes include improper meal timings, under or overeating, not having enough healthy foods, and nutritional ignorance. Experts have revealed that only 10\% of children below the age of five years are eating recommended healthy foods and this includes frequenting eating nutritious meals and eating on time. This has left the majority 90\% eating non-nutritious foods which has resulted in increasing numbers of childhood malnutrition and obesity (\cite{tumwine2022only}). “People are eating a lot of unhealthy foods that do not contribute to the manufacturing of blood in the body which has made them sicker.”(\cite{tumwine2022only}). We therefore intend to contain this problem by developing a diet and nutrition management system which will guide the targeted populace categories majorly students to maintain a healthy selection of well-balanced meals daily.
 
 \subsection{Objectives}
 \subsubsection{General Objectives}
@@ -108,14 +112,14 @@ To test and validate the system.
 \subsection{Justification.}
 Improper diet and nutrition is a constant challenge to many students which adversely exposes them to risks like obesity, digestive problems, and chronic illnesses. From the listed effects, our system intends to; 
 \begin{itemize}
-  \item Increase the awareness on the dire consequences of improper diet and nutrition
+  \item Increase awareness on the dire consequences of improper diet and nutrition
   \item provide a practical means to improve feeding patterns daily. 
   \item customize a system to the needs of Students Population. 
 
 \end{itemize}
 
 \subsection{Scope}
-Our research will be focused on locally grown foods in Uganda that consist a balanced diet and specific chronic illnesses like Diabetes, obesity, pressure and cancer. We will major on Makerere University. We intend to sample several students from colleges such as CEDAT, COCIS, and CHUSS in order to know the foods they regularly eat.
+Our research will be focused on locally grown foods in Uganda that consist of a balanced diet and specific chronic illnesses like Diabetes, obesity, pressure and cancer. We will major at Makerere University. We intend to sample several students from colleges such as CEDAT, COCIS, and CHUSS to know the foods they regularly eat.
 
 \subsection{Significance}
 The system we aim to build will help the elderly remind them when to best consume their meals. Athletes, through consuming the right foods will receive the required food values thus boosting their sports performance. Pregnant mothers will be able to sustain a healthy pregnancy through appropriate meals for both the unborn baby and the expectant mother. Students will be able to register an improvement in their overall mental health, especially regarding memory retention and the intelligence quotient.  People with chronic illnesses will realize the nutritional value of eating suitable foods and as a result, reduced disability-adjusted Life years. As far as academia is concerned, it will assist to refine the focus of the research on the diet and nutrition context and predict any challenges that may arise out of it.
