@@ -3,14 +3,28 @@
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{booktabs} %Allow tables to be created well
 \usepackage{graphicx}
+\usepackage{titlesec} %Allow subsubsubsection
 \usepackage{float} % To make table appear where you place its code
 \usepackage[margin=1in]{geometry} %border Margins
 \usepackage[style=authoryear, backend=biber]{biblatex}
 \addbibresource{citation.bib}
 
+% \makeatletter
+% \def\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+%                                      {-3.25ex\@plus -1ex \@minus -.2ex}%
+%                                      {1.5ex \@plus .2ex}%
+%                                      {\normalfont\normalsize\bfseries\hspace{0pt}}}
+% \makeatother
+
+
+\makeatletter
+\def\subsubsubsection{\@startsection{subsubsubsection}{4}{\z@}%
+{-3.25ex\@plus -1ex \@minus -.2ex}%
+{1.5ex \@plus .2ex}%
+{\normalfont\normalsize\bfseries}}
+\makeatother
 
 % \bibliographystyle{apa7}
-
 \begin{document}
 
 \title{\textbf{TOPIC:  DIET AND NUTRITION MANAGEMENT SYSTEM} }
@@ -28,12 +42,6 @@
 \end{center}
 
 \hrule
-\begin{center}
-\textbf{Department of Information Systems}\\
-\textbf{School of Computing and Informatics Technology}
-\\ BIST:(Systems Development)
-\end{center}
-
 
 \vspace{15pt} 
 
@@ -62,6 +70,11 @@ ONEN SAM SENSY & 20/U/3502/PS & {\color[HTML]{000000} {sensyonen@gmail.com}} & 0
 }
 \end{table}
 
+\begin{center}
+\textbf{Department of Information Systems}\\
+\textbf{School of Computing and Informatics Technology}
+\\ BIST:(Systems Development)
+\end{center}
 
 \begin{center}
 \textbf{A Proposal submitted to the College of Computing and Information Sciences in Partial fulfillment of the Requirements for the Award of a Degree of Bachelor of Information Systems and Technology of Makerere University.}
@@ -87,6 +100,7 @@ Information systems are concerned with data capture, storage, analysis, and retr
 
 
 \subsection{Background}
+\label{Background}
 Dietary deficiency is more accountable for the overall death toll on the global scale than other factors such as tobacco, high blood pressure, or any other health risk, as indicated in the new scientific study. “Poor diet is an equal opportunity killer,” (\cite{ihme2019new}). Low levels of healthy food consumption, such as whole grains, in contrast to too many unhealthy foods, including sweetened beverages, account for one in every five deaths globally, “We are what we eat and risks affect people across a range of demographics, including age, gender, and economic status,” (\cite{ihme2019new}).
 
 Poor diets were behind the 10.9 million deaths, or 22\% of all deaths among adults in 2017, with cardiovascular disease (CVD) as the foremost cause, trailed by cancers and diabetes. They also resulted in 255 million disability-adjusted life years (DALYs), equaling the sum of years lost and years lived with disability. Poor diet statistically represents 16\% of all DALYs among adults globally. The findings of the study dictate that while the impact of individual dietary factors varies across countries, three dietary factors – low intake of whole grains, as well as fruits, and high consumption of sodium – accounted for more than 50\% of diet-related deaths and 66\% of DALYs. The other 50\% of death and 34\% of DALYs were tied to high consumption of red meat, processed meats, sugar-sweetened beverages, and trans fatty acids among other foods. There is an urgent and compelling need for changes in the various sectors of the food production cycle, such as growing, processing, packaging, and marketing (\cite{ihme2019new}).
@@ -128,6 +142,7 @@ The system we aim to build will help the elderly remind them when to best consum
 %%-------------------------------------------------------------------------------
 %% 2.0 Literature review
 %%-------------------------------------------------------------------------------
+\newpage
 \section{Literature Review}
 
 According to Wikipedia (\citeyear{wikipedia2019dietary}), dietary management simply means providing nutritional options for individuals and groups with diet concerns through the supervision of food services. Information systems have made it easier for accurate and efficient nutritional analysis of feeding habits and patterns.
@@ -316,6 +331,77 @@ Accessibility/Affordable(Free) &  &  &  &  &  &  & \textbf{YES} \\ \bottomrule
 \end{tabular}%
 }
 \end{table}
+
+%%-------------------------------------------------------------------------------
+%% 3.0 Methodology
+%%-------------------------------------------------------------------------------
+\newpage
+\section{Research Methodology}
+\subsection{Introduction }
+In this section, we shall share all the methods and tools that we shall use to carry out our research and fulfill all the stated specific objectives that the system to be developed should have.  It presents the description of the research design, study area, sample and sampling techniques. 
+
+\subsection{System Development Life Cycle}
+The SDLC design that we shall deploy to develop the system is the waterfall model. The waterfall model is a classical model used in the system development life cycle to create a system with a linear and sequential approach. This is so because our requirements for the system are clearly defined and well-known.
+
+%Image of the Waterfall SDLC
+
+\subsubsection{Requirements Analysis
+}
+In this phase, all requirements of the project are analyzed and documented in a specification document and a feasibility analysis is done to check if these requirements are valid. At this stage, as developers we shall describe and analyze the needs and behavior of the user towards the product. We will conduct research on potential users as to what they want when opening and entering the website. Potential users are referred to as subjects who want to diet, do a healthy life.
+
+Also, at this stage will be analyzed how this system will meet user needs when using this website to place an order. The requirements gathered will be both functional and non-functional requirements. For example Functional include “The system should authenticate a user’s new account on in order to gain access.” Non-functional “The system should be able to handle 50 users without performance deterioration.” and others. After thorough analysis, a Requirements Understanding Documents (RUD) is created.
+
+We will make use of tools such as frameworks for both front end and back end to develop the system along with languages such as JavaScript, CSS and HTML for frontend and PHP, JavaScript for the backend logic ,SQL for the database operation  and servers like the MySQL server and MySQL database for management.
+\subsubsection{System Design}
+At the design stage, the system design will be made, such as the method to be used, use case diagrams, activity diagrams, wire frames and mock up designs. Design and Development of the diet management system using Waterfall Model. At this stage, we will describe the needs and behaviors that the system can perform in the form of UML. UML diagrams that are made are diagrams like, Use Case, Class Diagram, and Activity Diagram and display on the website or called the user interface.
+
+\subsubsection{Use Case Diagram Web Application.}
+We shall visualize what actors can do with the system. Each actor has a different role in the system developed. In this web system is divided into 2 actors, namely Student and Admin. \\
+
+
+\textbf{Some of the actions that students can do on this system are:}
+\begin{itemize}
+\item Create a user account for access.
+\item Enter their bio data while creating a user account.
+\item Choose and select varieties of meal plans.
+\item Give feedback and reviews on the quality of nutritional literature.
+\item And Others.
+\end{itemize}
+
+\textbf{Some of the actions that an Admin can do on this system are:}
+\begin{itemize}
+\item Create or delete certain user accounts.
+\item Update the number or meal plans available.
+\item Increase or reduce the number of food groups available for the meal plans.
+\item And Others.
+\end{itemize}
+
+\paragraph{Activity Diagram \\}
+To start using this website, the user must first enter the website address. Users can be divided into two, namely customer and admin.  Students have to register themselves in order to choose a meal plan via the web application. For students already registered from the beginning of web development. To do it via the web, registered student can login. If the username or password entered is incorrect or not registered, you can re-login again. After logging in or not the student can see monthly diet and promo information on the web system homepage.
+
+\paragraph{UML Class Diagram \\}
+
+The UML Class Diagram on this website consists of seven classes as shown i below. Each class has different responsibilities and functions commonly referred to as attributes and operations. User class is used as login or login to the website, divided into admin and customer. Admin and customer classes are the users' bio data. Class Order to store data about an order. Payment class for storing and sending proof of payment. Product class is used to store biodata of available goods and stock availability. Shopping Cart class is used to store food datain the long run.
+
+\subsubsection{System Implementation}
+The system will be implemented using programming languages and system implementation tools. While developing the database, we shall use MySQL which is an open-source language developed by Oracle.  
+
+In the process of developing the front-end part of the system, we use a variety of tools which include HTML and CSS.  Hypertext Markup Language (HTML) will be used to display content on the web browser whereas Cascading Style Sheets (CSS) will be used to make the web pages look attractive. 
+
+In the process of back-end development, we shall use PHP and this side majorly focuses on website architecture and everything related to interactions between the database information and the browser. 
+
+\subsubsection{System Testing and VAlidation}
+System testing will be done while referring to the requirement specifications of the system to see if the developed system satisfies the predefined functionalities. The testing can be done through unit testing, integration testing and user acceptance testing. 
+
+\paragraph{Unit Testing \\}
+This is where we shall tell individual functions that will be used in the system and this can involve testing a function that returns the number of meals stored in the system. To carry out unit testing, you can use a testing library for the programming language in use. This process is majorly done to ensure that the functions are acting like they were intended. 
+
+\paragraph{Integration Testing \\}
+After all functions are working fine, we shall move on to integration testing where all the functions are put together and then testing if they all work to get the needed output.
+
+\paragraph{User Acceptance Testing \\}
+This is the final type of testing and it is done by the end users to ensure that everything is working out fine and this will involve getting some students and allowing them to fully use the system for a specific number of days and then get feedback about the functionality of the system.
+
 
 % \bibliographystyle{apa}% Set the bibliography style
 % \bibliography{citation} % Include the bibliography file
