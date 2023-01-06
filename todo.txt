@@ -1,7 +1,0 @@
-1. Update coparison table
-
-Changes
-
--- higlighted under specfi objectives
-
---Margin for the 1st and second Page=1in, Other pages normal
