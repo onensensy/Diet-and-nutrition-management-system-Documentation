@@ -345,19 +345,37 @@ The SDLC design that we shall deploy to develop the system is the waterfall mode
 
 %Image of the Waterfall SDLC
 
-\subsubsection{Requirements Analysis
-}
-In this phase, all requirements of the project are analyzed and documented in a specification document and a feasibility analysis is done to check if these requirements are valid. At this stage, as developers we shall describe and analyze the needs and behavior of the user towards the product. We will conduct research on potential users as to what they want when opening and entering the website. Potential users are referred to as subjects who want to diet, do a healthy life.
+\begin{center}
+\vspace{30px}
+\includegraphics[width=300px]{Proposal_waterfall-SDLC.png}
+\label{SDLC_waterfall_diagram}
+\vspace{30px}
+\end{center}
 
-Also, at this stage will be analyzed how this system will meet user needs when using this website to place an order. The requirements gathered will be both functional and non-functional requirements. For example Functional include “The system should authenticate a user’s new account on in order to gain access.” Non-functional “The system should be able to handle 50 users without performance deterioration.” and others. After thorough analysis, a Requirements Understanding Documents (RUD) is created.
+\subsubsection{Project Planning}
+Project planning is at the heart of the project life cycle, and tells everyone involved where you are going and how you are going to get there. This is where we shall document the project plan, define the project requirements and deliverables, and create the project schedule. It will involve creating a set of plans to help guide our team through the implementation and closure phases of the project. The plans created during this phase will help us manage time, cost, quality, changes, risk, and related issues. They will also help us control staff and external suppliers to ensure that we deliver the project on time, within budget, and within schedule.
 
-We will make use of tools such as frameworks for both front end and back end to develop the system along with languages such as JavaScript, CSS and HTML for frontend and PHP, JavaScript for the backend logic ,SQL for the database operation  and servers like the MySQL server and MySQL database for management.
+\subsubsection{Requirements Definition}
+In this phase, all requirements of the project are defined and documented in a specification document and a feasibility analysis is done to check if these requirements are valid. At this stage, as developers, we shall gather data from the desired sample of the population about the different aspects of their diet and nutrition. The collection of this data will involve different steps that include; Identify issues and opportunities for collecting data, setting goals and objectives, planning approaches and methods, and Collecting data. The collected data will enable one to answer stated research questions, test hypotheses, and evaluate outcomes.
+
+In our research process, we shall use a hybrid method which is comprised of both qualitative and quantitative methods to carry out the data collection process. We shall use Makerere University as our case study specifically the students due to the ease we shall find in collecting the research information and because we are part of the community and are able to fathom the depth of the problem.   
+
+Among the tools we shall use will include a questionnaire which will be sent to students from colleges which will be grouped into two and the first group will be comprised of undergraduate students from colleges such as CEDAT and CHS. This will be aimed at gathering information from students who have spent over 5 years at the university so that we can get a chain of events and know how their feeding has changed all over the years and benefits or sets backs they have faced with meals while at the university. The second group will include students from COCIS,  and COBAMS where the courses are on average 3 years and also check on the effects their feeding has had on their health and studies. 
+
+We shall use the interviews and observation techniques to understand the patterns that students use to select their daily meals at the different break intervals during the course of the day.
+
+\subsubsection{Requirements Analysis}
+Also, at this stage will be analyzed how this system will meet user needs when using this website to place an order. The requirements gathered will be both functional and non-functional requirements. For example, Functional include “The system should authenticate a user’s new account in order to gain access.” Non-functional “The system should be able to handle 50 users without performance deterioration.” and others. After thorough analysis, a Requirements Understanding Document (RUD) is created.
+
+The main purpose of conducting system analysis is to study the various processes and to find out its requirements. This includes ways of processing data, producing information, controlling a business activity or supporting management. The determination of requirements entrails studying the existing details about it to find out what these requirements are. The data will be analyzed with Microsoft Excel so that we can get matching patterns and also filter out what is necessary for us to be able to determine the users needs.
+
+We will come up with a Software requirements specification document that helps formalize the functional and non-functional requirements
+
 \subsubsection{System Design}
-At the design stage, the system design will be made, such as the method to be used, use case diagrams, activity diagrams, wire frames and mock up designs. Design and Development of the diet management system using Waterfall Model. At this stage, we will describe the needs and behaviors that the system can perform in the form of UML. UML diagrams that are made are diagrams like, Use Case, Class Diagram, and Activity Diagram and display on the website or called the user interface.
+At the design stage, the system design will be made, such as the method to be used, use case diagrams, activity diagrams, wire-frames and mockup designs. Design and Development of the diet management system using Waterfall Model. At this stage, we will describe the needs and behaviors that the system can perform in the form of UML. UML diagrams that are made are diagrams like, Use Case, Class Diagram, and Activity Diagram and display on the website or called the user interface.
 
-\subsubsection{Use Case Diagram Web Application.}
-We shall visualize what actors can do with the system. Each actor has a different role in the system developed. In this web system is divided into 2 actors, namely Student and Admin. \\
-
+\paragraph{Use Case Diagram Web Application.******* \\}
+We shall visualize what actors can do with the system. Each actor has a different role in the system developed. In this web system is divided into 2 actors, namely Student and Admin.
 
 \textbf{Some of the actions that students can do on this system are:}
 \begin{itemize}
@@ -380,18 +398,21 @@ We shall visualize what actors can do with the system. Each actor has a differen
 To start using this website, the user must first enter the website address. Users can be divided into two, namely customer and admin.  Students have to register themselves in order to choose a meal plan via the web application. For students already registered from the beginning of web development. To do it via the web, registered student can login. If the username or password entered is incorrect or not registered, you can re-login again. After logging in or not the student can see monthly diet and promo information on the web system homepage.
 
 \paragraph{UML Class Diagram \\}
+The UML Class Diagram on this website consists of seven classes as shown below.
 
-The UML Class Diagram on this website consists of seven classes as shown i below. Each class has different responsibilities and functions commonly referred to as attributes and operations. User class is used as login or login to the website, divided into admin and customer. Admin and customer classes are the users' bio data. Class Order to store data about an order. Payment class for storing and sending proof of payment. Product class is used to store biodata of available goods and stock availability. Shopping Cart class is used to store food datain the long run.
+Each class has different responsibilities and functions commonly referred to as attributes and operations. User class is used as login or login to the website, divided into admin and customer. Admin
+
+and customer classes are the user’s biodata. Class Order to store data about an order. Payment class for storing and sending proof of payment. Product class is used to store biodata of available goods and stock availability. Shopping Cart class is used to store food data in the long run.
 
 \subsubsection{System Implementation}
 The system will be implemented using programming languages and system implementation tools. While developing the database, we shall use MySQL which is an open-source language developed by Oracle.  
 
-In the process of developing the front-end part of the system, we use a variety of tools which include HTML and CSS.  Hypertext Markup Language (HTML) will be used to display content on the web browser whereas Cascading Style Sheets (CSS) will be used to make the web pages look attractive. 
+In the process of developing the front-end part of the system, we use a variety of tools which include Html and CSS.  Hypertext Markup Language (HTML) will be used to display content on the web browser whereas Cascading Style Sheets (CSS) will be used to make the web pages look attractive. 
 
-In the process of back-end development, we shall use PHP and this side majorly focuses on website architecture and everything related to interactions between the database information and the browser. 
+In the process of backend development, we shall use PHP and this side majorly focuses on website architecture and everything related to interactions between the database information and the browser. 
 
-\subsubsection{System Testing and VAlidation}
-System testing will be done while referring to the requirement specifications of the system to see if the developed system satisfies the predefined functionalities. The testing can be done through unit testing, integration testing and user acceptance testing. 
+\subsubsection{System Testing and Validation}
+System testing will be done while referring to the requirement specifications of the system to see if the developed system satisfies the predefined functionality. The testing can be done through unit testing, integration testing and user acceptance testing.
 
 \paragraph{Unit Testing \\}
 This is where we shall tell individual functions that will be used in the system and this can involve testing a function that returns the number of meals stored in the system. To carry out unit testing, you can use a testing library for the programming language in use. This process is majorly done to ensure that the functions are acting like they were intended. 
@@ -400,8 +421,62 @@ This is where we shall tell individual functions that will be used in the system
 After all functions are working fine, we shall move on to integration testing where all the functions are put together and then testing if they all work to get the needed output.
 
 \paragraph{User Acceptance Testing \\}
-This is the final type of testing and it is done by the end users to ensure that everything is working out fine and this will involve getting some students and allowing them to fully use the system for a specific number of days and then get feedback about the functionality of the system.
+This is the final type of testing and it is done by the end users to ensure that everything is working out fine and this will involve getting some students and allowing them to fully use the system for a specific number of days and then get feedback about the functionality of the system. 
 
+
+%*******************************************************
+%*******************************************************
+% %Tabular Representation
+% \begin{table}[H]
+% \centering
+% %--------------------------------
+% \setlength{\tabcolsep}{6pt}%sets the horizontal (column) spacing
+% % \renewcommand{\arraystretch}{2} %sets the vertical (row) spacing
+% %--------------------------------
+% \resizebox{\columnwidth}{!}{%
+% \begin{tabular}{|l|l|l|l|}
+% \hline
+% \textbf{Objectives} & \textbf{Stage} & \textbf{Tool(s)} & \textbf{Output} \\ \hline
+% To identify \\ requirements for the \\Diet \\Management \\system  & System \\Planning & Online Google form & System \\Requirements \\Documents \\ \hline
+% To design a \\model for the System & System Design & Diagram.net/Draw.io,\\ Data flow Diagrams \\***** &  System Design Document \\ \hline
+% To implement \\the system & System \\Implementation & MySQL, HTML,JavaScript,\\ CSS, PHP & System For Testing \\ \hline
+% To test and \\Validate the system & System Testing\\ and Validation & software testing \\tools such as \\programming \\language testing \\libraries,  \\visual Basic  & Fully \\Developed \\System \\ \hline
+% \end{tabular}%
+% }
+% \end{table}
+
+%*******************************************************
+%*******************************************************
+%Table goes Here
+% \begin{table}[H]
+% \centering
+% \caption{Comparison Of the Systems}
+% \label{tab:comparison-of -systems}
+% \resizebox{\columnwidth}{!}{%
+% \begin{tabular}{@{}|l|l|l|l|@{}}
+% \toprule
+% \textbf{Objectives} & \textbf{Stage} & \textbf{Tool(s)} & \textbf{Output} \\ \hline
+% % To identify \newline requirements for the \newline Diet \newline Management \newline system  &  & \textbf{YES} & \textbf{YES} \\ \midrule
+% % Timely Reminder & \textbf{YES} & \textbf{YES} &  \\ \midrule
+% % Food Suggestions & \textbf{YES} & \textbf{YES} & \textbf{YES} \\ \midrule
+% % Accessibility/Affordable(Free) &  &  &   \\ \bottomrule
+% To identify \\ requirements for the \\Diet \\Management \\system  & System \\Planning & Online Google form & System \\Requirements \\Documents \\ \midrule
+% To design a \\model for the System & System Design & Diagram.net/Draw.io,\\ Data flow Diagrams \\***** &  System Design Document \\ \midrule
+% To implement \\the system & System \\Implementation & MySQL, HTML,JavaScript,\\ CSS, PHP & System For Testing \\ \midrule
+% To test and \\Validate the system & System Testing\\ and Validation & software testing \\tools such as \\programming \\language testing \\libraries,  \\visual Basic  & Fully \\Developed \\System \\ \bottomrule
+% \end{tabular}%
+% }
+% \end{table}
+
+%*******************************************************
+%*******************************************************
+
+\subsubsection{Conclusion}
+This section fully states a detailed number of steps that will be followed to collect the data, process it and analyze it in order to get the specific requirements of the system. These will then be used to fully develop, test and validate the system. 
+
+%--------------------------------------------------------------------------------------------------------------------
+%Document End
+%--------------------------------------------------------------------------------------------------------------------
 
 % \bibliographystyle{apa}% Set the bibliography style
 % \bibliography{citation} % Include the bibliography file
