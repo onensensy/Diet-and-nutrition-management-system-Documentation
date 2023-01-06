@@ -54,6 +54,7 @@ PRESENTED BY
 \begin{table}[H]
 \centering
 %--------------------------------
+% Spacin Added By Victor
 \setlength{\tabcolsep}{6pt}%sets the horizontal (column) spacing
 \renewcommand{\arraystretch}{2} %sets the vertical (row) spacing
 %--------------------------------
@@ -327,10 +328,11 @@ BMI Calculator &  & \textbf{YES} & \textbf{YES} &  & \textbf{YES} & \textbf{YES}
 Timely Reminder & \textbf{YES} & \textbf{YES} &  &  & \textbf{YES} &  & \textbf{YES} \\ \midrule
 Food Suggestions & \textbf{YES} & \textbf{YES} & \textbf{YES} & \textbf{YES} &  &  & \textbf{YES} \\ \midrule
 Nutritional Literature & \textbf{YES} &  & \textbf{YES} & \textbf{YES} & \textbf{YES} & \textbf{YES} & \textbf{YES} \\ \midrule
-Accessibility/Affordable(Free) &  &  &  &  &  &  & \textbf{YES} \\ \bottomrule
+\begin{tabular}[c]{@{}l@{}} Accessibility/\\Affordable(Free) \end{tabular} &  & &  &  &  &  & \textbf{YES}\\ \bottomrule
 \end{tabular}%
 }
 \end{table}
+With the comparison above, Our system will meet all the features that are absent\footnote{The Cells that are empty (i.e Cells without '\textbf{YES}'), indicate the absence of the specific Feature in the corresponding System} in all the other systems.
 
 %%-------------------------------------------------------------------------------
 %% 3.0 Methodology
@@ -347,13 +349,13 @@ The SDLC design that we shall deploy to develop the system is the waterfall mode
 
 \begin{center}
 \vspace{30px}
-\includegraphics[width=300px]{Proposal_waterfall-SDLC.png}
-\label{SDLC_waterfall_diagram}
+\includegraphics[width=300px]{Images/Proposal_waterfall-SDLC.png}
+\label{waterfall-SDLC-method-image}
 \vspace{30px}
 \end{center}
 
 \subsubsection{Project Planning}
-Project planning is at the heart of the project life cycle, and tells everyone involved where you are going and how you are going to get there. This is where we shall document the project plan, define the project requirements and deliverables, and create the project schedule. It will involve creating a set of plans to help guide our team through the implementation and closure phases of the project. The plans created during this phase will help us manage time, cost, quality, changes, risk, and related issues. They will also help us control staff and external suppliers to ensure that we deliver the project on time, within budget, and within schedule.
+Project planning is at the heart of the project life cycle, and tells everyone involved where you are going and how you are going to get there. This is where we shall document the project plan, define the project requirements and deliverables, and create the project schedule. It will involve creating a set of plans to help guide our team through the implementation and closure phases of the project. The plans created during this phase will help us manage time, cost, quality, changes, risk, and related issues. They will also help us control staff and external suppliers to ensure that we deliver the project on time, within budget, and within schedule.
 
 \subsubsection{Requirements Definition}
 In this phase, all requirements of the project are defined and documented in a specification document and a feasibility analysis is done to check if these requirements are valid. At this stage, as developers, we shall gather data from the desired sample of the population about the different aspects of their diet and nutrition. The collection of this data will involve different steps that include; Identify issues and opportunities for collecting data, setting goals and objectives, planning approaches and methods, and Collecting data. The collected data will enable one to answer stated research questions, test hypotheses, and evaluate outcomes.
@@ -365,7 +367,7 @@ Among the tools we shall use will include a questionnaire which will be sent to 
 We shall use the interviews and observation techniques to understand the patterns that students use to select their daily meals at the different break intervals during the course of the day.
 
 \subsubsection{Requirements Analysis}
-Also, at this stage will be analyzed how this system will meet user needs when using this website to place an order. The requirements gathered will be both functional and non-functional requirements. For example, Functional include “The system should authenticate a user’s new account in order to gain access.” Non-functional “The system should be able to handle 50 users without performance deterioration.” and others. After thorough analysis, a Requirements Understanding Document (RUD) is created.
+Also, at this stage will be analyzed how this system will meet user needs when using this website to place an order. The requirements gathered will be both functional and non-functional requirements. For example, Functional include “The system should authenticate a user’s new account in order to gain access.” Non-functional “The system should be able to handle 50 users without performance deterioration.” and others. After thorough analysis, a Requirements Understanding Document (RUD) is created.
 
 The main purpose of conducting system analysis is to study the various processes and to find out its requirements. This includes ways of processing data, producing information, controlling a business activity or supporting management. The determination of requirements entrails studying the existing details about it to find out what these requirements are. The data will be analyzed with Microsoft Excel so that we can get matching patterns and also filter out what is necessary for us to be able to determine the users needs.
 
@@ -426,47 +428,21 @@ This is the final type of testing and it is done by the end users to ensure that
 
 %*******************************************************
 %*******************************************************
-% %Tabular Representation
-% \begin{table}[H]
-% \centering
-% %--------------------------------
-% \setlength{\tabcolsep}{6pt}%sets the horizontal (column) spacing
-% % \renewcommand{\arraystretch}{2} %sets the vertical (row) spacing
-% %--------------------------------
-% \resizebox{\columnwidth}{!}{%
-% \begin{tabular}{|l|l|l|l|}
-% \hline
-% \textbf{Objectives} & \textbf{Stage} & \textbf{Tool(s)} & \textbf{Output} \\ \hline
-% To identify \\ requirements for the \\Diet \\Management \\system  & System \\Planning & Online Google form & System \\Requirements \\Documents \\ \hline
-% To design a \\model for the System & System Design & Diagram.net/Draw.io,\\ Data flow Diagrams \\***** &  System Design Document \\ \hline
-% To implement \\the system & System \\Implementation & MySQL, HTML,JavaScript,\\ CSS, PHP & System For Testing \\ \hline
-% To test and \\Validate the system & System Testing\\ and Validation & software testing \\tools such as \\programming \\language testing \\libraries,  \\visual Basic  & Fully \\Developed \\System \\ \hline
-% \end{tabular}%
-% }
-% \end{table}
-
-%*******************************************************
-%*******************************************************
-%Table goes Here
-% \begin{table}[H]
-% \centering
-% \caption{Comparison Of the Systems}
-% \label{tab:comparison-of -systems}
-% \resizebox{\columnwidth}{!}{%
-% \begin{tabular}{@{}|l|l|l|l|@{}}
-% \toprule
-% \textbf{Objectives} & \textbf{Stage} & \textbf{Tool(s)} & \textbf{Output} \\ \hline
-% % To identify \newline requirements for the \newline Diet \newline Management \newline system  &  & \textbf{YES} & \textbf{YES} \\ \midrule
-% % Timely Reminder & \textbf{YES} & \textbf{YES} &  \\ \midrule
-% % Food Suggestions & \textbf{YES} & \textbf{YES} & \textbf{YES} \\ \midrule
-% % Accessibility/Affordable(Free) &  &  &   \\ \bottomrule
-% To identify \\ requirements for the \\Diet \\Management \\system  & System \\Planning & Online Google form & System \\Requirements \\Documents \\ \midrule
-% To design a \\model for the System & System Design & Diagram.net/Draw.io,\\ Data flow Diagrams \\***** &  System Design Document \\ \midrule
-% To implement \\the system & System \\Implementation & MySQL, HTML,JavaScript,\\ CSS, PHP & System For Testing \\ \midrule
-% To test and \\Validate the system & System Testing\\ and Validation & software testing \\tools such as \\programming \\language testing \\libraries,  \\visual Basic  & Fully \\Developed \\System \\ \bottomrule
-% \end{tabular}%
-% }
-% \end{table}
+\begin{table}[H]
+\centering
+\caption{Tabular Representation of Methodologies}
+\label{tab:tabular-representaion-of-methodologies}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}|l|l|l|l|l|l|l|l|@{}}
+\toprule
+\multicolumn{1}{|c|}{\textbf{Objective}} & \textbf{Stage} & \textbf{Tool(s)} & \textbf{Output} \\ \midrule
+\begin{tabular}[c]{@{}l@{}} To identify \\requirements for \\the Diet \\Management system \end{tabular} & System Planning & Online Google Form & \begin{tabular}[c]{@{}l@{}} System Requirements \\Document \end{tabular} \\  \midrule
+\begin{tabular}[c]{@{}l@{}} To design a model \\for the system \end{tabular} & System Design  & \begin{tabular}[c]{@{}l@{}} Draw.io/Diagram.net \end{tabular} & \begin{tabular}[c]{@{}l@{}} System Design \\Document\end{tabular} \\ \midrule
+\begin{tabular}[c]{@{}l@{}} To implement the System\end{tabular} & \begin{tabular}[c]{@{}l@{}} System Implementation \end{tabular} & \begin{tabular}[c]{@{}l@{}} MySQL, HTML, \\JavaScript, CSS, PHP\end{tabular} & \begin{tabular}[c]{@{}l@{}} System for \\Testing\end{tabular} \\ \midrule
+\begin{tabular}[c]{@{}l@{}} To test and Validate \\the System\end{tabular} & \begin{tabular}[c]{@{}l@{}} System testing and Validation \end{tabular} & \begin{tabular}[c]{@{}l@{}} Software testing \\tools such as \\programming \\language testing \\libraries, visual Basic  \end{tabular} & \begin{tabular}[c]{@{}l@{}} Fully Developed \\System \end{tabular} \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
 
 %*******************************************************
 %*******************************************************
@@ -474,10 +450,9 @@ This is the final type of testing and it is done by the end users to ensure that
 \subsubsection{Conclusion}
 This section fully states a detailed number of steps that will be followed to collect the data, process it and analyze it in order to get the specific requirements of the system. These will then be used to fully develop, test and validate the system. 
 
-%--------------------------------------------------------------------------------------------------------------------
-%Document End
-%--------------------------------------------------------------------------------------------------------------------
-
+%%-------------------------------------------------------------------------------
+%% xxx DOcument End xxx
+%%-------------------------------------------------------------------------------
 % \bibliographystyle{apa}% Set the bibliography style
 % \bibliography{citation} % Include the bibliography file
 \newpage
