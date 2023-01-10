@@ -26,16 +26,18 @@ This todo follows chapter by chapter Approach and its purpose is to help in the 
 
 - [ ] Margin for the 1st and second Page=1in, Other pages normal
 - [ ] Add List of Images in the Appendix
+- [x] Fix Table borders
 
 <hr>
 ### Chapter by Chapter
 
 1. Introduction
     - [x] Higlighted under specfic objectives   
+    - [ ] Citation missed
 2. Literature Review
     - [x] Add footnote on the table of comparison stating that the blank cells indicate that the feature is not present  //(Additionally Added some text).
 3. Research Methodology
     - [x] Fix/Insert table in Methodology
-    - [ ] Add caption to the image Changes
+    - [x] Add caption to the image Changes
     - [ ] Spelling Mistakes check
 <hr>
