@@ -42,6 +42,6 @@ This todo follows chapter by chapter Approach and its purpose is to help in the 
     - [x] Add caption to the image Changes
     - [ ] Spelling Mistakes check
 4. Appendix
-    - [ ] Appendix A table formating
+    - [x] Appendix A table formating
     - [ ] 
 <hr>
