@@ -25,8 +25,9 @@ This todo follows chapter by chapter Approach and its purpose is to help in the 
 ### General
 
 - [ ] Margin for the 1st and second Page=1in, Other pages normal
-- [ ] Add List of Images in the Appendix
+- [x] Add List of Images in the Appendix
 - [x] Fix Table borders
+- [ ] Add labels to all tables 
 
 <hr>
 ### Chapter by Chapter
@@ -40,4 +41,7 @@ This todo follows chapter by chapter Approach and its purpose is to help in the 
     - [x] Fix/Insert table in Methodology
     - [x] Add caption to the image Changes
     - [ ] Spelling Mistakes check
+4. Appendix
+    - [ ] Appendix A table formating
+    - [ ] 
 <hr>

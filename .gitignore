@@ -10,3 +10,5 @@
 *.xml
 *.toc
 *.html
+*.lof
+*.lot

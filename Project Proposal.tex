@@ -8,6 +8,7 @@
 \usepackage{float} % To make table appear where you place its code
 \usepackage[style=authoryear, backend=biber]{biblatex}
 \usepackage{mathpazo}
+\usepackage{appendix}
 \addbibresource{citation.bib}
 
 \makeatletter
@@ -86,6 +87,10 @@ ONEN SAM SENSY & 20/U/3502/PS & {\color[HTML]{000000} {sensyonen@gmail.com}} & 0
 %Table of content
 \tableofcontents
 \newpage
+\listoftables
+\newpage
+\listoffigures
+\newpage
 
 \section{Introduction}
 \label{Introducion}
@@ -128,8 +133,8 @@ Improper diet and nutrition is a constant challenge to many students which adver
 \subsection{Scope}
 Our research will be focused on locally grown foods in Uganda that consist of a balanced diet and specific chronic illnesses like Diabetes, obesity, pressure and cancer. We will major at Makerere University. We intend to sample several students from colleges such as CEDAT, COCIS, and CHUSS to know the foods they regularly eat.
 
-\subsection{Significance}
-The system we aim to build will help the elderly remind them when to best consume their meals. Athletes, through consuming the right foods will receive the required food values thus boosting their sports performance. Pregnant mothers will be able to sustain a healthy pregnancy through appropriate meals for both the unborn baby and the expectant mother. Students will be able to register an improvement in their overall mental health, especially regarding memory retention and the intelligence quotient.  People with chronic illnesses will realize the nutritional value of eating suitable foods and as a result, reduced disability-adjusted Life years. As far as academia is concerned, it will assist to refine the focus of the research on the diet and nutrition context and predict any challenges that may arise out of it.
+\subsection{Significance*****}
+The system we aim to build will help the elderly**** remind them when to best consume their meals. Athletes, through consuming the right foods will receive the required food values thus boosting their sports performance. Pregnant mothers will be able to sustain a healthy pregnancy through appropriate meals for both the unborn baby and the expectant mother. Students will be able to register an improvement in their overall mental health, especially regarding memory retention and the intelligence quotient.  People with chronic illnesses will realize the nutritional value of eating suitable foods and as a result, reduced disability-adjusted Life years. As far as academia is concerned, it will assist to refine the focus of the research on the diet and nutrition context and predict any challenges that may arise out of it.
 
 
 %%-------------------------------------------------------------------------------
@@ -346,14 +351,14 @@ The SDLC design that we shall deploy to develop the system is the waterfall mode
 
 %Image of the Waterfall SDLC
 
-\vspace{30px}
-\begin{figure}
+\vspace{10px}
+\begin{figure}[H]
     \centering
     \includegraphics[width=400px]{Images/waterfallv2.png}
     \caption{Waterfall Method}
     \label{waterfall-SDLC-method-image}
 \end{figure}
-\vspace{30px}
+\vspace{10px}
 
 
 \subsubsection{Project Planning}
@@ -477,4 +482,93 @@ This section fully states a detailed number of steps that will be followed to co
 %%-------------------------------------------------------------------------------
 %% xxx Appendix
 %%-------------------------------------------------------------------------------
+\newpage
+\appendix
+\renewcommand{\thesection}{}
+\section{Appendix A}
+\begin{tabular}{|l|l|l|}
+\hline
+\multicolumn{3}{|c|}{\textbf{Project part 1 completed}} \\
+\hline
+\textbf{Activity} & \textbf{Duration} & \textbf{Deliverables} \\ \hline
+Concept paper & 2 weeks & Problem statement and objectives \\ \hline
+Literature review & 2 weeks & Overview of previously developed systems relating to the topic \\ \hline
+Methodology & 2 weeks & Summary of how the project objectives will be achieved \\ \hline
+Proposal & 1 week & Summary of concept paper, literature review, and methodology \\ \hline
+\hline
+\multicolumn{3}{|c|}{\textbf{Project part 2}} \\
+\hline
+\textbf{Activity} & \textbf{Duration} & \textbf{Deliverables} \\ \hline
+Data collection and deriving of system requirements & 3 weeks & System requirements document \\ \hline
+Implementation, testing and validation of the system & 8 weeks & Fully developed system \\ \hline
+Conclusions and future work & 3 weeks & Final report \\ \hline
+Developing slides for the developed system & 1 week & Presentation \\ \hline
+\end{tabular}
+
+\newpage
+\section{Appendix B}
+\subsection{Project Budget}
+\begin{tabular}{|l|r|}
+\hline
+\textbf{Item} & \textbf{Price (UGX)} \\ \hline
+Printing & 50,000 \\ \hline
+Stationery & 20,000 \\ \hline
+Mobile data & 30,000 \\ \hline
+Binding & 20,000 \\ \hline
+Transport & 30,000 \\ \hline
+Lunch & 50,000 \\ \hline
+APIs subscription & 38,000 \\ \hline
+\textbf{GRAND TOTAL} & \textbf{238,000} \\ \hline
+\end{tabular}
+
+\newpage
+\section{Appendix C: \newline A guide to data collection using questionnaires and interviews}
+
+We are third-year students at the College of Computing and Information Technology (COCIS) and we are developing a diet and nutrition management system that will help students manage their diets effectively. The system will allow students to register and based on their input, the system will provide timely reminders, food suggestions, and nutrition literature. This is an endeavor to help a student improve their overall mental health, especially regarding memory retention and the intelligence quotient.
+
+\subsection{Sample questions for the questionnaire guide directed to Makerere University students}
+\begin{enumerate}
+\item What is your name?
+\item What is your gender?
+\item When did you join Makerere University?
+\item Which college are you from?
+\item Do you cook your meals or do you have them from a restaurant?
+\item What is the average price of the food you eat?
+\item If you have your meals from out, where do you go?
+\item Do you have a clear time frame for your meals?
+\item Do you have a consistent meal plan?
+\item How many meals do you have in a day?
+\item Are these the same number of meals that you have been consuming since you joined the university?
+\item If no, why?
+\end{enumerate}
+
+\subsection{Interview Guide for Makerere Students}
+\begin{enumerate}
+\item What is your name?
+\item When did you join Makerere University?
+\item Which college are you from?
+\item Do you cook your meals or do you have them from a restaurant?
+\item What is the average price of the food you eat?
+\item If you have your meals from out, where do you go?
+\item Do you have a clear time frame for your meals?
+\item Do you have a consistent meal plan?
+\item How many meals do you have in a day?
+\item Are these the same number of meals that you have been consuming since you joined the university?
+\item If no, why?
+\end{enumerate}
+
+\subsection{Interview Guide for Doctors}
+\begin{enumerate}
+\item What is your name?
+\item What are the general effects of not having a balanced diet?
+\item What impact does an improper diet have on a student’s mental health and concentration?
+\item What is the most suitable time for students to have their meals?
+\item What are the best food combinations that will help a student achieve a balanced diet?
+\item What calories are contained in certain foods and how much should be consumed?
+\item What do you consider as over and under-eating?
+\item How could we access your nutritional literature?
+\item What advice do you have for students concerning their diet?
+\end{enumerate}
+
+
 \end{document}
