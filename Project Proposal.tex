@@ -78,8 +78,9 @@ ONEN SAM SENSY & 20/U/3502/PS & {\color[HTML]{000000} {sensyonen@gmail.com}} & 0
 \vspace{3pt} 
 \textbf{Supervisor:} Mr. Bitwire Albert George \\
  bitwire.albert@gmail.com \\ 0773-095119 \\
-\textbf{Submission date:} \today
 
+\vspace{25pt} 
+\textbf{January 14, 2023}
 % \textbf{Option:} Systems Development
 \end{center}
 
@@ -94,7 +95,7 @@ ONEN SAM SENSY & 20/U/3502/PS & {\color[HTML]{000000} {sensyonen@gmail.com}} & 0
 
 \section{Introduction}
 \label{Introducion}
-Information systems are concerned with data capture, storage, analysis, and retrieval. These are vital to assist decision-making in a short time frame, potentially allowing decisions to be made and practices to be action-ed in real time.  In the context of diet and nutrition management, nutritional health systems allow for accurate and efficient analysis of food ingredients as well as patient nutrient intake which assists in ensuring that selected food combinations offer the desired nutrients for a particular meal or diet order (\cite{DFM}). 
+Information systems are concerned with data capture, storage, analysis, and retrieval. These are vital to assist decision-making in a short time frame, potentially allowing decisions to be made and practices to be action-ed in real time.  In the context of diet and nutrition management, nutritional health systems allow for accurate and efficient analysis of food ingredients as well as patient nutrient intake which assists in ensuring that selected food combinations offer the desired nutrients for a particular meal or diet (\cite{DFM})
 
 
 \subsection{Background}
@@ -133,8 +134,9 @@ Improper diet and nutrition is a constant challenge to many students which adver
 \subsection{Scope}
 Our research will be focused on locally grown foods in Uganda that consist of a balanced diet and specific chronic illnesses like Diabetes, obesity, pressure and cancer. We will major at Makerere University. We intend to sample several students from colleges such as CEDAT, COCIS, and CHUSS to know the foods they regularly eat.
 
-\subsection{Significance*****}
-The system we aim to build will help the elderly**** remind them when to best consume their meals. Athletes, through consuming the right foods will receive the required food values thus boosting their sports performance. Pregnant mothers will be able to sustain a healthy pregnancy through appropriate meals for both the unborn baby and the expectant mother. Students will be able to register an improvement in their overall mental health, especially regarding memory retention and the intelligence quotient.  People with chronic illnesses will realize the nutritional value of eating suitable foods and as a result, reduced disability-adjusted Life years. As far as academia is concerned, it will assist to refine the focus of the research on the diet and nutrition context and predict any challenges that may arise out of it.
+\subsection{Significance}
+
+The system that we aim to build will help university students select the best food combinations within the appropriate time through timely reminders and food suggestions, while additionally providing Nutrition Literature.
 
 
 %%-------------------------------------------------------------------------------
@@ -185,15 +187,15 @@ Lifesum (\cite{lifesum}) is a digital health and wellness platform that aims to 
 It has several features which include:
 \begin{itemize}
 \item Simple tracking of meals (including barcode scanning), exercises, habits, weight, and body measurements.
-\item A wide range of diets to choose between, including Keto and High Protein.
+\item A wide range of diets to choose from, including Ketogenic Diet.
 \item Favorites - save your favorite food, exercises, meals, and recipes.
-\item Meal plans - 1 to 3 weeks of preplanned, easy-to-cook meals.
+\item Meal plans - 1 to 3 weeks of  scheduled, easy-to-cook meals.
 \item Support for macros and net carbs.
 \item Detailed nutritional information.
 \item Food, meal, and day ratings.
 \item Weekly life score - what's gone well and how you can improve.
 \item Hundreds of healthy and tasty recipes.
-\item Integrates with Apple Health, Google Fit, Samsung Health, Apple Watch, RunKeeper, Fitbit, Withings, Samsung wearables, Wear OS and Google Assistant.
+\item Integrates with Apple Health, Google Fit, Samsung Health, Apple Watch, RunKeeper, Fitbit, Withings, Samsung wearable devices, Wear OS and Google Assistant.
 \end{itemize}
 
 \textbf{Strength of the System:}
@@ -336,7 +338,7 @@ Nutritional Literature & \textbf{YES} &  & \textbf{YES} & \textbf{YES} & \textbf
 }
 \end{table}
 
-With the comparison above, Our system will meet all the features that are absent\footnote{The Cells that are empty (i.e Cells without '\textbf{YES}'), indicate the absence of the specific Feature in the corresponding System} in all the other systems.
+With the comparison above, Our system will meet all the features that are absent\footnote{The cells that are empty (i.e cells without '\textbf{YES}'), indicate the absence of the specific Feature in the corresponding System} in all the other systems.
 
 %%-------------------------------------------------------------------------------
 %% 3.0 Methodology
@@ -355,7 +357,7 @@ The SDLC design that we shall deploy to develop the system is the waterfall mode
 \begin{figure}[H]
     \centering
     \includegraphics[width=400px]{Images/waterfallv2.png}
-    \caption{Waterfall Method}
+    \caption{Waterfall Methodology Illustration}
     \label{waterfall-SDLC-method-image}
 \end{figure}
 \vspace{10px}
@@ -381,7 +383,7 @@ The main purpose of conducting system analysis is to study the various processes
 We will come up with a Software requirements specification document that helps formalize the functional and non-functional requirements
 
 \subsubsection{System Design}
-At the design stage, the system design will be made, such as the method to be used, use case diagrams, activity diagrams, wire-frames and mockup designs. Design and Development of the diet management system using Waterfall Model. At this stage, we will describe the needs and behaviors that the system can perform in the form of UML. UML diagrams that are made are diagrams like, Use Case, Class Diagram, and Activity Diagram and display on the website or called the user interface.
+At the design stage, the system design will be made, such as the method to be used, use case diagrams, activity diagrams, wire-frames and mock-up designs. Design and Development of the diet management system using Waterfall Model. At this stage, we will describe the needs and behaviors that the system can perform in the form of UML. UML diagrams that are made are diagrams like, Use Case, Class Diagram, and Activity Diagram and display on the website or called the user interface.
 
 \paragraph{Use Case Diagram for Web Application\\}
 We shall visualize what actors can do with the system. Each actor has a different role in the system developed. In this web system is divided into 2 actors, namely Student and Admin.
@@ -411,20 +413,25 @@ The UML Class Diagram on this website consists of seven classes as shown below.
 
 Each class has different responsibilities and functions commonly referred to as attributes and operations. User class is used as login or login to the website, divided into admin and customer. Admin
 
-and customer classes are the user’s biodata. Class Order to store data about an order. Payment class for storing and sending proof of payment. Product class is used to store biodata of available goods and stock availability. Shopping Cart class is used to store food data in the long run.
+and customer classes are the user’s bio-data. Class Order to store data about an order. Payment class for storing and sending proof of payment. Product class is used to store bio-data of available goods and stock availability. Shopping Cart class is used to store food data in the long run.
 
 \subsubsection{System Implementation}
 The system will be implemented using programming languages and system implementation tools. While developing the database, we shall use MySQL which is an open-source language developed by Oracle.  
 
-In the process of developing the front-end part of the system, we use a variety of tools which include Html and CSS.  Hypertext Markup Language (HTML) will be used to display content on the web browser whereas Cascading Style Sheets (CSS) will be used to make the web pages look attractive. 
+In the process of developing the front-end part of the system, we use a variety of tools which include HTML and CSS.  Hypertext Markup Language (HTML) will be used to display content on the web browser whereas Cascading Style Sheets (CSS) will be used to make the web pages look attractive. 
 
-In the process of backend development, we shall use PHP and this side majorly focuses on website architecture and everything related to interactions between the database information and the browser. 
+In the process of back-end development, we shall use PHP and this side majorly focuses on website architecture and everything related to interactions between the database information and the browser. 
 
 \subsubsection{System Testing and Validation}
-System testing will be done while referring to the requirement specifications of the system to see if the developed system satisfies the predefined functionality. The testing can be done through unit testing, integration testing and user acceptance testing.
+\paragraph{System Testing \\}
+The aim of testing a system is to ensure that a system meets its specification and any non-functional requirements (such as stability and throughput) that have been agreed upon with its users.
+
+Each component of the diet and nutrition management system for example the BMI calculator, Timely Reminder, and Food Suggestions will be tested independently after being developed to see whether they function as intended.
+
+System testing will be done while referring to the requirement specifications of the system to see if the developed system satisfies the predefined functionalities. The testing can be done through unit testing, integration testing, and user acceptance testing. 
 
 \paragraph{Unit Testing \\}
-This is where we shall tell individual functions that will be used in the system and this can involve testing a function that returns the number of meals stored in the system. To carry out unit testing, you can use a testing library for the programming language in use. This process is majorly done to ensure that the functions are acting like they were intended. 
+This is where we shall identify individual functions that will be used in the system and this can involve testing a function that returns the number of meals stored in the system. To carry out unit testing, you can use a testing library for the programming language in use. This process is majorly done to ensure that the functions are acting like they were intended. 
 
 \paragraph{Integration Testing \\}
 After all functions are working fine, we shall move on to integration testing where all the functions are put together and then testing if they all work to get the needed output.
