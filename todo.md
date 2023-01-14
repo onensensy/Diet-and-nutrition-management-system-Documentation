@@ -28,6 +28,7 @@ This todo follows chapter by chapter Approach and its purpose is to help in the 
 - [x] Add List of Images in the Appendix
 - [x] Fix Table borders
 - [ ] <strike>Add labels to all tables </strike>
+- [ ] Remove any form of system
 
 <hr>
 ### Chapter by Chapter
