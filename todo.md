@@ -25,10 +25,12 @@ This todo follows chapter by chapter Approach and its purpose is to help in the 
 ### General
 
 - [ ] <strike>Margin for the 1st and second Page=1in, Other pages normal</strike>
-- [x] Add List of Images in the Appendix
+- [x] Add List of tables for the Appendix
 - [x] Fix Table borders
-- [ ] <strike>Add labels to all tables </strike>
-- [ ] Remove any form of system
+- [x] <strike>Add labels to all tables </strike>
+- [x] Remove any form of website
+- [x] References (Remove the URL: text)
+- [x] Explain the PHP bits
 
 <hr>
 ### Chapter by Chapter
