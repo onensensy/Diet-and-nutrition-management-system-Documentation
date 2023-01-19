@@ -1,14 +1,15 @@
 \documentclass{article}
 \usepackage{graphicx}
-\usepackage[margin=1in]{geometry} %border Margins
-\usepackage{hyperref}
-\usepackage[table,xcdraw]{xcolor}
-\usepackage{booktabs} %Allow tables to be created well
-\usepackage{titlesec} %Allow subsubsubsection
-\usepackage{float} % To make table appear where you place its code
-\usepackage[style=authoryear, backend=biber]{biblatex}
-\usepackage{mathpazo}
-\usepackage{appendix}
+\usepackage [margin=1in]{geometry} %border Margins
+\usepackage {hyperref}
+\usepackage [table,xcdraw]{xcolor}
+\usepackage {booktabs} %Allow tables to be created well
+\usepackage {titlesec} %Allow subsubsubsection
+\usepackage {float} % To make table appear where you place its code
+\usepackage [style=authoryear, backend=biber]{biblatex}
+\usepackage {mathpazo}
+\usepackage {appendix}
+\linespread{1.6}
 \addbibresource{citation.bib}
 
 \makeatletter
@@ -38,11 +39,37 @@
 
 \vspace{20px} 
 
-{\LARGE TOPIC:  DIET AND NUTRITION MANAGEMENT SYSTEM}\
-\vspace{9pt} 
 
-PRESENTED BY
 \vspace{-9pt} 
+
+\begin{center}
+\textbf{Department of Information Systems}\\
+\textbf{School of Computing and Informatics Technology}
+\\ BIST:(Systems Development)
+\end{center}
+\vspace{20px} 
+
+{\LARGE TOPIC:  DIET AND NUTRITION MANAGEMENT SYSTEM}\
+\vspace{5px} 
+
+\begin{center}
+\textbf{A Proposal submitted to the College of Computing and Information Sciences in Partial fulfillment of the Requirements for the Award of a Degree of Bachelor of Information Systems and Technology of Makerere University.}
+\end{center}
+
+% \vspace{200pt} 
+\vspace{3pt} 
+\textbf{Supervisor:} Mr. Bitwire Albert George \\
+ bitwire.albert@gmail.com \\ +256 773-095119 \\
+\vspace{25pt}
+\textbf{
+Sign:...............................\hspace{40pt}Date:............................... \\
+}
+\vspace{25pt}
+
+
+% \textbf{Option:} Systems Development
+\end{center}
+\newpage
 
 \begin{table}[h]
 \centering
@@ -68,32 +95,15 @@ ONEN SAM SENSY & 2000703502 & 20/U/3502/PS & sensyonen@gmail.com & 0782-150448\\
 \end{tabular}
 }
 \end{table}
-\begin{center}
-\textbf{Department of Information Systems}\\
-\textbf{School of Computing and Informatics Technology}
-\\ BIST:(Systems Development)
-\end{center}
-
-\begin{center}
-\textbf{A Proposal submitted to the College of Computing and Information Sciences in Partial fulfillment of the Requirements for the Award of a Degree of Bachelor of Information Systems and Technology of Makerere University.}
-\end{center}
-
-% \vspace{200pt} 
-\vspace{3pt} 
-\textbf{Supervisor:} Mr. Bitwire Albert George \\
- bitwire.albert@gmail.com \\ 0773-095119 \\
-
-\vspace{25pt} 
-\textbf{\today}
-% \textbf{Option:} Systems Development
-\end{center}
 
 \newpage
 %Table of content
 \tableofcontents
 \newpage
+%List of tables
 \listoftables
 \newpage
+%List of figures
 \listoffigures
 \newpage
 
@@ -366,7 +376,7 @@ The SDLC design that we shall deploy to develop the system is the waterfall mode
 \vspace{10px}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=400px]{Images/waterfall-v3.png}
+    \includegraphics[width=350px]{Images/waterfall-v3.png}
     \caption{Waterfall Methodology Illustration showing the phases and deliverables for each phase}
     \label{waterfall-SDLC-method-image}
 \end{figure}
