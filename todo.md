@@ -31,6 +31,7 @@ This todo follows chapter by chapter Approach and its purpose is to help in the 
 - [x] Remove any form of website
 - [x] References (Remove the URL: text)
 - [x] Explain the PHP bits
+- [x] font size
 
 <hr>
 ### Chapter by Chapter
