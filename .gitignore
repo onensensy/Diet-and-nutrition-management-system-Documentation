@@ -12,3 +12,5 @@
 *.html
 *.lof
 *.lot
+*.fls
+*.fdb_latexmk
